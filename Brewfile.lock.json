@@ -2,13 +2,13 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "adab6c2ed75d53776555a708cccac8da954f7430"
+        "revision": "9985a84879c23bc725defc2bd4cb50494f76b593"
       },
       "homebrew/cask": {
-        "revision": "83cb641fc5485d02922b4d1f6ccd77eb762e5de9"
+        "revision": "b761bc558bb0fd553049ebca96a3186c62dbe9b7"
       },
       "homebrew/core": {
-        "revision": "e8bbe55c8c3d2df1b19cc65bd3e90ea4e3bdc8bc"
+        "revision": "e9a1fa8b1e5a25bdb10dcb20835236bd54df402d"
       }
     },
     "cask": {
@@ -65,6 +65,12 @@
       },
       "insomnia": {
         "version": "7.0.6"
+      },
+      "rocket-chat": {
+        "version": "2.17.2"
+      },
+      "obs": {
+        "version": "24.0.6"
       }
     },
     "brew": {
@@ -141,30 +147,22 @@
       },
       "openssl": null,
       "watch": {
-        "version": "3.3.15",
+        "version": "3.3.16",
         "bottle": {
-          "cellar": ":any_skip_relocation",
+          "cellar": ":any",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/watch-3.3.15.catalina.bottle.tar.gz",
-              "sha256": "a0955d44620cfbbd8b191649a4924cd1526f10e786929c036caff0de1258c0c1"
+              "url": "https://homebrew.bintray.com/bottles/watch-3.3.16.catalina.bottle.tar.gz",
+              "sha256": "011e48363fe62c7a4ba0dec746d5964ee25545bde7855a31db0cb411420df190"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/watch-3.3.15.mojave.bottle.tar.gz",
-              "sha256": "bdb4f8a1feed527be937eb0f470444c93643b3dc72943387fcd7584c2b96baf6"
+              "url": "https://homebrew.bintray.com/bottles/watch-3.3.16.mojave.bottle.tar.gz",
+              "sha256": "d17aba6f80c530e6b91b30e088df60aab3dc84b2f57ca7499928322438b9f0d2"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/watch-3.3.15.high_sierra.bottle.tar.gz",
-              "sha256": "9fceef6cae551481726f86f9a0e5e79ca2bf27e0f41d0feb0800ab25e9161342"
-            },
-            "sierra": {
-              "url": "https://homebrew.bintray.com/bottles/watch-3.3.15.sierra.bottle.tar.gz",
-              "sha256": "010375a88535763436571b3140bacd5733e8176621d663464a8ae3c57ed7813f"
-            },
-            "el_capitan": {
-              "url": "https://homebrew.bintray.com/bottles/watch-3.3.15.el_capitan.bottle.tar.gz",
-              "sha256": "d89d82028efa1586bd6f6b05fba3f7c15259e6a9fedffa5e36d8a900514b0ecb"
+              "url": "https://homebrew.bintray.com/bottles/watch-3.3.16.high_sierra.bottle.tar.gz",
+              "sha256": "13d63ebc419965182d98f10b25cc99961679e1ba5ce6118e66b7037eb4e78de8"
             }
           }
         }
@@ -252,7 +250,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.2.2",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "e8bbe55c8c3d2df1b19cc65bd3e90ea4e3bdc8bc",
+        "Homebrew/homebrew-core": "e9a1fa8b1e5a25bdb10dcb20835236bd54df402d",
         "CLT": "11.3.0.0.1.1574140115",
         "Xcode": "11.3",
         "macOS": "10.15.2"
